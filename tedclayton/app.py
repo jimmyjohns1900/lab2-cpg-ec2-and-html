@@ -3,7 +3,9 @@ from math_ops import add_numbers
 def main():
     print("=== Team CLI Calculator ===")
     try:
-        num1 = float(input("Enter first number: "))
+        num1 = float(input("Enter first number: ")) 
+        
+        #so rusty on python I forgot "input" allows the user to put the numbers in - Tyler. 
         num2 = float(input("Enter second number: "))
 
         result = add_numbers(num1, num2)
